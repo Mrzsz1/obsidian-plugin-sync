@@ -1,0 +1,9 @@
+.ops-bridge-status {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.ops-bridge-progress {
+  margin-top: 12px;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-plugin-sync-bridge",
+  "name": "Obsidian Plugin Sync Bridge",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Captures sanitized runtime plugin settings structure for Obsidian Plugin Sync.",
+  "author": "Obsidian Plugin Sync",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,33 @@
+{
+  "name": "obsidian-plugin-sync",
+  "private": true,
+  "version": "0.1.5",
+  "type": "module",
+  "workspaces": [
+    "bridge-plugin"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run build:bridge && npm run build:desktop",
+    "build:bridge": "npm run build --workspace=obsidian-plugin-sync-bridge",
+    "build:desktop": "tsc && vite build",
+    "test:bridge": "npm test --workspace=obsidian-plugin-sync-bridge",
+    "preview": "vite preview --host 127.0.0.1",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "lucide-react": "^1.23.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}
