@@ -3,6 +3,7 @@ name = "obsidian-plugin-sync"
 version = "0.1.5"
 description = "Windows desktop app for syncing Obsidian plugins across local vaults"
 authors = ["Obsidian Plugin Sync"]
+license = "MIT"
 edition = "2021"
 
 [lib]

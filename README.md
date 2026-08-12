@@ -150,10 +150,15 @@ src-tauri/target/release/bundle/msi/Obsidian Plugin Sync_<version>_x64_en-US.msi
 
 - 平台：Windows
 - 当前版本：0.1.5
+- 发布说明：[v0.1.5 Release Notes](./RELEASE_NOTES_v0.1.5.md)
 - 界面语言：中文优先
 - 阶段：持续开发中
 
 问题反馈和 Pull Request 均可通过 GitHub 提交。
+
+### 许可证
+
+本项目基于 [MIT License](./LICENSE) 开源。
 
 ---
 
@@ -292,7 +297,12 @@ Non-major updates keep the current application version by default rather than au
 
 - Platform: Windows
 - Current version: 0.1.5
+- Release notes: [v0.1.5](./RELEASE_NOTES_v0.1.5.md)
 - UI language: Chinese-first
 - Stage: Active development
 
 Issues and pull requests are welcome through GitHub.
+
+### License
+
+This project is released under the [MIT License](./LICENSE).

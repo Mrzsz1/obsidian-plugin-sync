@@ -2,6 +2,7 @@
   "name": "obsidian-plugin-sync-bridge",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "node esbuild.config.mjs",
